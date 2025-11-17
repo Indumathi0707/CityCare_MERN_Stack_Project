@@ -8,7 +8,9 @@ CityCare - Civic Issue Reporting System
 A full-stack MERN application that enables citizens to report civic issues and helps administrators manage and resolve them efficiently.
 
 
+
 🚀 Live Demo
+
 
 
 Frontend: http://localhost:5173
@@ -16,7 +18,9 @@ Frontend: http://localhost:5173
 Backend API: http://localhost:5000
 
 
+
 📋 Table of Contents
+
 
 
 Features
@@ -40,10 +44,13 @@ Contributing
 License
 
 
+
 ✨ Features
 
 
+
 👥 User Roles
+
 
 
 Citizens: Report civic issues with images and track resolution status
@@ -51,7 +58,9 @@ Citizens: Report civic issues with images and track resolution status
 Administrators: Manage all issues, update status, and analyze platform data
 
 
+
 🔐 Authentication & Security
+
 
 
 JWT-based authentication
@@ -63,7 +72,9 @@ Secure admin registration with admin code
 Password hashing with bcrypt
 
 
+
 📱 Core Functionality
+
 
 
 Issue Reporting: Report civic issues with categories (Road, Water, Electricity, etc.)
@@ -77,7 +88,9 @@ Admin Dashboard: Comprehensive admin panel with analytics
 Responsive Design: Mobile-first design that works on all devices
 
 
+
 🛠️ Admin Features
+
 
 
 View all reported issues with filtering
@@ -91,10 +104,13 @@ View platform statistics and analytics
 Assign issues to team members
 
 
+
 🛠️ Tech Stack
 
 
+
 Frontend
+
 
 
 React.js - UI framework
@@ -110,7 +126,9 @@ Tailwind CSS - Styling framework
 Font Awesome - Icons
 
 
+
 Backend
+
 
 
 Node.js - Runtime environment
@@ -128,49 +146,65 @@ bcryptjs - Password hashing
 CORS - Cross-origin resource sharing
 
 
+
 📸 Screenshots
+
 
 
 Home Page
 
 
+
 <img width="1912" height="1012" alt="CityCare HomePage" src="https://github.com/user-attachments/assets/2f008d2f-242d-444e-a1d5-e5e6890aa155" />
+
 
 
 <img width="1918" height="910" alt="CityCare HomePage2" src="https://github.com/user-attachments/assets/633c4bf6-b7b7-42e4-9b9d-12a167c99ba7" />
 
 
+
 <img width="1918" height="901" alt="CityCare HomePage3" src="https://github.com/user-attachments/assets/e4f93435-5f86-459e-91bc-033f206fbd41" />
+
 
 
 Issue Reporting
 
 
+
 <img width="1910" height="907" alt="CityCare IssuePage2" src="https://github.com/user-attachments/assets/782b0ef4-cbff-446a-9e15-abf9dd3f3538" />
+
 
 
 <img width="1917" height="902" alt="CityCare IssuePage" src="https://github.com/user-attachments/assets/efec5e56-b33e-4ebd-bb52-a928c2a59cb8" />
 
 
+
 Admin Dashboard
+
 
 
 <img width="1908" height="928" alt="CityCare AdminPage" src="https://github.com/user-attachments/assets/63e23b39-521b-42a1-ba19-ea615adaf708" />
 
 
+
 Login Page
+
 
 
 <img width="1918" height="905" alt="CityCare LoginPage" src="https://github.com/user-attachments/assets/9270f0dd-7468-4f08-8c09-ae58dad48b20" />
 
 
+
 Register Page
+
 
 
 <img width="1917" height="912" alt="CityCare RegisterPage" src="https://github.com/user-attachments/assets/cab91f30-7895-4aed-9305-f17ae31e1776" />
 
 
+
 🚀 Installation
+
 
 
 Prerequisites
@@ -182,30 +216,35 @@ MongoDB (local or Atlas)
 npm or yarn
 
 
+
 1. Clone the Repository
  
-git clone https://github.com/your-username/citycare.git
+   git clone https://github.com/your-username/citycare.git
 
-cd citycare
+   cd citycare
+
 
 
 2. Backend Setup
  
-cd Backend
+   cd Backend
 
-npm install
+   npm install
+
 
 
 3. Frontend Setup
 
-cd ../Frontend
+   cd ../Frontend
 
-npm install
+   npm install
+
 
 
 4. Environment Configuration
  
-Create .env file in Backend directory:
+   Create .env file in Backend directory:
+
 
 
 env
@@ -220,7 +259,10 @@ JWT_SECRET=your_super_secret_jwt_key_here
 
 ADMIN_REGISTRATION_CODE=ADMIN2024
 
+
+
 ⚙️ Environment Variables
+
 
 
 Backend (.env)
@@ -238,7 +280,9 @@ JWT_SECRET	              Secret key for JWT tokens	     -
 ADMIN_REGISTRATION_CODE	  Code for admin registration	   ADMIN2024
 
 
+
 🏃‍♂️ Running the Application
+
 
 
 Start Backend Server
@@ -260,10 +304,14 @@ npm run dev
 Frontend runs on: http://localhost:5173
 
 
+
 📡 API Endpoints
 
 
+
 Authentication
+
+
 
 Method	 Endpoint	            Description	             Access
 
@@ -274,7 +322,9 @@ POST	   /api/auth/login	    User login	             Public
 GET	     /api/auth/config	    Get auth configuration	 Public
 
 
+
 Issues
+
 
 Method	 Endpoint	                  Description	                 Access
 
@@ -292,7 +342,11 @@ PUT	     /api/issues/:id/assign	    Assign issue	               Admin
 
 DELETE	 /api/issues/:id	          Delete issue	               Admin
 
+
+
 📁 Project Structure
+
+
 
 citycare/
 
@@ -347,10 +401,13 @@ citycare/
 └── README.md
 
 
+
 🎯 Usage Guide
 
 
+
 For Citizens:
+
 
 
 Register/Login as a citizen
@@ -362,7 +419,9 @@ Track Progress in "My Issues" section
 Receive Updates on issue resolution
 
 
+
 For Administrators:
+
 
 
 Register/Login as admin (requires admin code)
@@ -376,7 +435,9 @@ Manage Issues with filtering and search
 View Analytics for platform insights
 
 
+
 🐛 Troubleshooting
+
 
 
 Common Issues
@@ -406,7 +467,9 @@ Check file size limits
 Verify image format support
 
 
+
 👨‍💻 Developer
+
 
 
 Indumathi Akula
@@ -416,7 +479,9 @@ Email: akula.indumathi13@gmail.com
 GitHub: Indumathi0707
 
 
+
 🙏 Acknowledgments
+
 
 
 Icons by Font Awesome
@@ -426,6 +491,9 @@ UI components styled with Tailwind CSS
 Built with MERN Stack
 
 
+
 ⭐ Star this repo if you found it helpful!
+
+
 
 Last updated: November 2025
