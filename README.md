@@ -495,5 +495,3 @@ Built with MERN Stack
 ⭐ Star this repo if you found it helpful!
 
 
-
-Last updated: November 2025
